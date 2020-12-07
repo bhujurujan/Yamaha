@@ -1,0 +1,33 @@
+{
+  "name": "automobile",
+  "version": "1.0.0",
+  "description": "This is a website for bikeshowroom",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server",
+    "scss": "node-sass -o css/ css/"
+  },
+  "author": "Rujan Bhuju",
+  "license": "ISC",
+  "devDependencies": {
+    "http-proxy-middleware": "^1.0.5",
+    "lite-server": "^2.5.4",
+    "onchange": "^7.1.0",
+    "parallelshell": "^3.0.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "less": "^3.12.2",
+    "popper.js": "^1.12.9",
+    "sass": "^1.26.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "automobile"
+  }
+}
